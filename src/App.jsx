@@ -5,11 +5,11 @@ import HomePage from "./pages/Homepage";
 
 export default function App() {
   return (
-    
+    <div className='m-2'>
       <BrowserRouter>
       <Routes>
         < Route element={<HomePage />} path="/" />
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter></div>
   )
 }
